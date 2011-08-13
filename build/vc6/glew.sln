@@ -1,19 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C++ Express 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glew_shared", "glew_shared.vcproj", "{F2DD719B-CF64-4700-A6F2-C43EBF0AE2A3}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glew_shared", "glew_shared.vcxproj", "{F2DD719B-CF64-4700-A6F2-C43EBF0AE2A3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glew_static", "glew_static.vcproj", "{8484FDCC-12FF-425E-BE5C-0D9C7824BE50}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glew_static", "glew_static.vcxproj", "{8484FDCC-12FF-425E-BE5C-0D9C7824BE50}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glewinfo", "glewinfo.vcproj", "{45C900AC-CEB9-4039-B6D2-32EA3A0C7656}"
-	ProjectSection(ProjectDependencies) = postProject
-		{8484FDCC-12FF-425E-BE5C-0D9C7824BE50} = {8484FDCC-12FF-425E-BE5C-0D9C7824BE50}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glewinfo", "glewinfo.vcxproj", "{45C900AC-CEB9-4039-B6D2-32EA3A0C7656}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "visualinfo", "visualinfo.vcproj", "{F74169D1-217D-4275-8180-BE484CD70C6A}"
-	ProjectSection(ProjectDependencies) = postProject
-		{8484FDCC-12FF-425E-BE5C-0D9C7824BE50} = {8484FDCC-12FF-425E-BE5C-0D9C7824BE50}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "visualinfo", "visualinfo.vcxproj", "{F74169D1-217D-4275-8180-BE484CD70C6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
